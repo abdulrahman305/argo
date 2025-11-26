@@ -1,4 +1,4 @@
-import { DirectiveLocation, GraphQLBoolean, GraphQLDirective, GraphQLEnumType, GraphQLInt, GraphQLNonNull, ConstDirectiveNode, GraphQLScalarType, BooleanValueNode, StringValueNode } from 'graphql'
+import { DirectiveLocation, GraphQLBoolean, GraphQLDirective, GraphQLEnumType, GraphQLInt, GraphQLNonNull, ConstDirectiveNode, GraphQLScalarType,  StringValueNode } from 'graphql'
 import { Wire } from './wire'
 
 /** Marks a type for de-duplication. Works best with large values which re-appear often. */
